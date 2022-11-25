@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="calc.css">
+    <script src="calc.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <div class="outer">
+        <input type="text" id="result"><br><br>
+        <div class="block">
+            <button class="btn btn-danger" onclick="cls()">CA</button>
+            <button id="press" onclick="clr(value)" value="c">C</button>
+            <button id="press" onclick="Operation(value)" value="%">reminder</button>
+            <button id="press" onclick="log()" value="log">log</button>
+            <button id="press" onclick="pressed(value)" value="7">7</button>
+            <button id="press" onclick="pressed(value)" value="8">8</button>
+            <button id="press" onclick="pressed(value)" value="9">9</button>
+            <button id="press" onclick="Operation(value)" value="/">/</button>
+            <button id="press" onclick="pressed(value)" value="4">4</button>
+            <button id="press" onclick="pressed(value)" value="5">5</button>
+            <button id="press" onclick="pressed(value)" value="6">6</button>
+            <button id="press" onclick="Operation(value)" value="*">*</button>
+            <button id="press" onclick="pressed(value)" value="1">1</button>
+            <button id="press" onclick="pressed(value)" value="2">2</button>
+            <button id="press" onclick="pressed(value)" value="3">3</button>
+            <button id="press" onclick="Operation(value)" value="-">-</button>
+            <button id="press" onclick="pressed(value)" value=".">.</button>
+            <button id="press" onclick="pressed(value)" value="0">0</button>
+            <button id="press" onclick="show(value)" value="=">=</button>
+            <button id="press" onclick="Operation(value)" value="+">+</button>
+        </div>
+        <div class="block2"> 
+            <button id="press" onclick="sin()">sin</button>
+            <button id="press" onclick="cos()">cos</button>
+            <button id="press" onclick="tan()">tan</button>
+            <button id="press" onclick="pi()">pi</button>
+            <button id="press" onclick="sqr()">sqr</button>
+            <button id="press" onclick="sqrt()">sqrt</button>
+            <button id="press" onclick="exp()" value="^" >e</sup></button>
+            <!-- <button id="press" onclick="f8()">root </button> -->
+        </div>
+    </div>
+
+
+</body>
+
+</html>
